@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="de">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Besuche uns!</title>
+        <link rel="stylesheet" href="sty.css">
+    </head>
+    <body>
+        <header>
+            <h1>Security-vulner-School</h1>
+                <div class="startleist">
+                    <a href="index.html">Startseite</a>
+                    <a href="personal.html">Impressium</a>
+                    <a href="map.html">Besuche uns!</a>
+                    <a href="verzeichnis.html">Quellenverzeichnis</a>
+                </div> 
+        </header>
+        <div class="spache-in"> 
+            <div class="langWrap">
+                <a href="#" language='deutsch' class="active">Deutsch</a> 
+                <a href="#" language='english' >English</a>
+        </div>  
+
+    <h2 class="title">Besuche uns!</h2>
+    <!-- Hier ist der links als einbetten -->
+        <div>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d193595.25280012016!2d-74.14448732737499!3d40.69763123331177!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2sde!4v1728920697723!5m2!1sen!2sde" width="600" height="550" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div> <!-- der Links ist aus Google einbetten -->
+
+        <footer>
+            <p class="description">Erstellt von NESEC (2023)</p>
+        </footer>
+    </body>
+
+    <script>
+            const langEl = document.querySelector('.langWrap');
+            const link = document.querySelectorAll('a');
+            const titleEl = document.querySelector('.title');
+            const descrEl = document.querySelector('.description'); 
+    
+            link.forEach(el => {
+                el.addEventListener('click', () => {
+                    langEl.querySelector('.active').classList.remove('active');
+                    el.classList.add('active');
+    
+                    const attr = el.getAttribute('language');
+    
+                    titleEl.textContent = data[attr].title;
+                    descrEl.textContent = data[attr].description;
+                });
+            });
+    var data = {
+                  "deutsch":
+                  {
+                    "title": "Besuche uns!",
+                    "description": "Erstellt von NESEC (2023)"
+                  },
+                  "english":
+                  {
+                    "title": "Visit us!",
+                    "description": "Created by NESEC (2023)"
+                  },
+                }
+    </script>
+</html>
