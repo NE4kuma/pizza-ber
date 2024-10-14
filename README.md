@@ -1,6 +1,6 @@
 ![2024-10-14_22-39](https://github.com/user-attachments/assets/ddb16829-af5a-4b6f-aa25-980faf52dff8)
 ### Pizza Website with Shopping Cart
-Here is a website with several dishes, with a shopping cart. <br>
+Here is a website with several dishes, with a shopping cart... for a schoolproject. It also have some german words. <br>
 **Warning**: This project is designed for learning purposes only. It is not intended for professional use and is suitable for school or study projects.
 
 ## Intallation
