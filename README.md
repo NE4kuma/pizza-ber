@@ -12,14 +12,20 @@ sudo apt install apache2 git
 **Notice:** If you're using a different Linux distribution, make sure to use the correct `package manager`. The steps should be similar across distributions.<br>
 Now we install the rigt respetory 
 ```
-sudo git clone https://github.com/NE4kuma/pizza_webseite.git
+sudo git git clone git@github.com:NE4kuma/Webshop-pizza.git
 ```
 After that bring it to your weblocation:
 ```
-cd pizza_webseite
-mv * /var/www/html
+cd /var/www/html
+mv Webshop-pizza/* .
+rm -rf Webshop-pizza/
+
 ```
-Now your website should be up and running!
+Now your website should be up and running! You can go to your browser and write: 
+```
+http://localhost
+```
+It should appars some pruduct :).
 
 ### Important:
 This project was created by me, and I drew inspiration from a few helpful websites:
