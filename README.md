@@ -1,4 +1,4 @@
-
+![2024-10-14_22-39](https://github.com/user-attachments/assets/ddb16829-af5a-4b6f-aa25-980faf52dff8)
 ### Pizza Website with Shopping Cart
 Here is a website with several dishes, with a shopping cart. <br>
 **Warning**: This project is designed for learning purposes only. It is not intended for professional use and is suitable for school or study projects.
@@ -19,7 +19,6 @@ After that bring it to your weblocation:
 cd /var/www/html
 mv Webshop-pizza/* .
 rm -rf Webshop-pizza/
-
 ```
 Now your website should be up and running! You can go to your browser and write: 
 ```
