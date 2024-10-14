@@ -5,22 +5,22 @@ Here is a website with several dishes, with a shopping cart. <br>
 
 ## Intallation
 (If you want to host this webshop, make sure it is only for local network usage.) <br>
-Before we begin, we need to install the necessary packages.
+Before we begin, we need to install the necessary packages:
 ```bash
 sudo apt install apache2 git
 ```
 **Notice:** If you're using a different Linux distribution, make sure to use the correct `package manager`. The steps should be similar across distributions.<br>
-Now we install the rigt respetory 
-```
+Now go to the weblocation and install the rigt respetory:
+```bash
+cd /var/www/html
 sudo git git clone git@github.com:NE4kuma/Webshop-pizza.git
 ```
-After that bring it to your weblocation:
-```
-cd /var/www/html
+**Optional**: remove the unused folders:
+```bash
 mv Webshop-pizza/* .
 rm -rf Webshop-pizza/
 ```
-Now your website should be up and running! You can go to your browser and write: 
+After that your website should be up and running! You can go to your browser and write: 
 ```
 http://localhost
 ```
