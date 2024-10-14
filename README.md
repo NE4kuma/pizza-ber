@@ -30,6 +30,8 @@ It should appars some pruduct :).
 This project was created by me, and I drew inspiration from a few helpful websites:
 <li>https://github.com/nikmace/pizza-shop</li>
 <li>https://cssgradient.io/</li>
+<li>https://pngtree.com/</li>
+<li>https://www.pngwing.com/</li>
 <li>https://webcode.tools/css-generator/background-gradient</li> <br>
 These websites provided inspiration, but no code was copied directly. 
 
