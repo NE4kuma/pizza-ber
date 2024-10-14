@@ -31,7 +31,7 @@ This project was created by me, and I drew inspiration from a few helpful websit
 <li>https://github.com/nikmace/pizza-shop</li>
 <li>https://cssgradient.io/</li>
 <li>https://webcode.tools/css-generator/background-gradient</li> <br>
-These websites provided inspiration, but no code was copied directly.
+These websites provided inspiration, but no code was copied directly. <br>
 ## Conculution
 Hopefully, everything is working. If not, please leave a comment in the Issues tab. Thank you for paying attention, and have a nice day :)<br>
 ~ NeSec
