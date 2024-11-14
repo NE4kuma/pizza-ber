@@ -13,7 +13,7 @@ sudo apt install apache2 git
 Now go to the weblocation and install the rigt respetory:
 ```bash
 cd /var/www/html
-sudo git clone git@github.com:NE4kuma/Webshop-pizza.git
+sudo git clone git@github.com:Ne4ec/Webshop-pizza.git
 ```
 Put everything in the weblocation and remove the unused folders:
 ```bash
