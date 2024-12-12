@@ -20,7 +20,11 @@ Put everything in the weblocation and remove the unused folders:
 mv Webshop-pizza/* .
 rm -rf Webshop-pizza/
 ```
-After that your website should be up and running! You can go to your browser and write: 
+One last command, and with that, we start the web server:
+```
+systemctl start apache2
+```
+After that, your website should be up and running! You can open your browser and navigate to:
 ```
 http://localhost
 ```
